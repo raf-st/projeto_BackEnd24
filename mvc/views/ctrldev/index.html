@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../public/css/style.css">
+</head>
+
+<body>
+  
+    <main class="container d-flex align-items-center justify-content-center border border-1 ">
+     
+        <div class="row d-flex  align-items-center justify-content-center border border-1 m-4 p-4 shadow ">
+            <div class="col m-2 p-2">
+              <div class="d-flex justify-content-center">
+                <img src="../public/images/logo.png" alt="Perentino" width="120px" class="" /> 
+              </div>
+              
+              
+                <h2 class="w-100 p-2 d-flex justify-content-center"><i class="bi bi-door-open"></i> Login - Loja Painel de controle</h2>
+                <p class=" d-flex justify-content-center">bem vindo ao sistema PERENTINO</p>
+                <P class="d-flex justify-content-center">Acesso restrito ao dashsboard da Loja</P> 
+                <p class="d-flex justify-content-center">Ou</p>
+                <p class="d-flex justify-content-center">
+                  <a href="/registra">  <button class="btn bg-success "  data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever=""> Registre-se</button></a>
+                    
+                </p>
+            </div>
+        <div class="col d-flex align-items-center justify-content-center border border-dark  border-1 m-4 p-4 rounded ">
+            
+                <form action="/login" class="m-1 p-1 " method="post">
+                    <div class="row m-1 p-1" >
+                        
+                            <label for="txtctrllogin" class="form-label m-1 w-100"><i class="bi bi-envelope-at"></i> Email</label>
+                            <input type="text" name="txtctrllogin" id="txtctrllogin" class="form-control" tabindex="1">
+                            <label for="txtctrlpass" class="form-label m-1"><i class="bi bi-braces-asterisk"></i> Senha</label>
+                            <input type="password" name="txtctrlpass" id="txtctrlpass" class="form-control" tabindex="1">
+                        
+                    </div>
+                    <div class="row"><button type="submit" class="btn bg-info">Entrar</button></div>
+                </form>
+            
+        </div>
+ </div>
+
+
+
+    </main>
+    
+    
+    
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
